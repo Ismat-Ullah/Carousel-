@@ -1,0 +1,69 @@
+.scene {
+  width: 300px;
+  height: 250px;
+  background: blue;
+  position: relative;
+  margin: 40px auto;
+  text-align: center;
+  perspective: 1000px;
+}
+
+.carousel {
+  width: 260px;
+  height: 210px;
+  background: green;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  transition: all 1s ease;
+  transform-style: preserve-3d;
+}
+
+.cell {
+  width: 240px;
+  height: 190px;
+  position: absolute;
+  line-height: 190px;
+  background: orange;
+  top: 10px;
+  left: 10px;
+}
+
+/* .cell:nth-child(1) {
+  transform: rotateY(36deg);
+}
+.cell:nth-child(2) {
+  transform: rotateY(72deg);
+}
+.cell:nth-child(3) {
+  transform: rotateY(108deg);
+}
+.cell:nth-child(4) {
+  transform: rotateY(144deg);
+}
+.cell:nth-child(5) {
+  transform: rotateY(180deg);
+}
+.cell:nth-child(6) {
+  transform: rotateY(216deg);
+}
+.cell:nth-child(7) {
+  transform: rotateY(252deg);
+}
+.cell:nth-child(8) {
+  transform: rotateY(288deg);
+}
+.cell:nth-child(9) {
+  transform: rotateY(324deg);
+}
+.cell:nth-child(10) {
+  transform: rotateY(360deg);
+} */
+
+p {
+  text-align: center;
+  width: 200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
